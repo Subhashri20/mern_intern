@@ -1,11 +1,12 @@
-import React from 'react'
-
-const Students = ({name,age}) => {
+const Students = (props) => {
   return (
     <>
-    <div>Students</div>
-    <h2>heading</h2>
-    <h4>I am {name} and Age is {age}</h4>
+    <div>
+      <h2>Students</h2>
+      <h4>I am {props.name} and age is {props.age}</h4>
+     
+      
+    </div>
     </>
   )
 }
